@@ -66,7 +66,7 @@ const ForecastAQI = () => {
 
     useEffect(() => {
         if (location) {
-            fetch(`http://localhost:5000/api/forecast?lat=${location.lat}&lon=${location.lon}`)
+            fetch(`https://Dakshbir.github.io/project_structure/api/forecast?lat=${location.lat}&lon=${location.lon}`)
                 .then(res => res.json())
                 .then(setData)
                 .catch(console.error);
