@@ -1,3 +1,5 @@
+# app.py
+
 from flask import Flask, request, jsonify
 from flask_cors import CORS
 from utils.aqi_calculator import get_current_aqi, get_forecast_aqi, get_historical_aqi

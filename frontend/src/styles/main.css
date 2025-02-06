@@ -220,6 +220,7 @@
     transform: scale(1.05);
   }
   
+  
   .tabs button::after {
     content: '';
     position: absolute;
