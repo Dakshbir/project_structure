@@ -41,4 +41,4 @@ def historical_aqi():
     return jsonify(data if data is not None else {'error': 'Failed to fetch data'})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
