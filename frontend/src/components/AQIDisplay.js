@@ -18,27 +18,27 @@ const AQIDisplay = ({ data }) => {
             </div>
             <div className="pollutants">
                 <div className="pollutant">
-                    <span>PM2.5</span>
+                    <span>PM2.5: </span>
                     <span>{data.PM2_5_AQI}</span>
                 </div>
                 <div className="pollutant">
-                    <span>PM10</span>
+                    <span>PM10: </span>
                     <span>{data.PM10_AQI}</span>
                 </div>
                 <div className="pollutant">
-                    <span>NO2</span>
+                    <span>NO2: </span>
                     <span>{data.NO2_AQI}</span>
                 </div>
                 <div className="pollutant">
-                    <span>O3</span>
+                    <span>O3: </span>
                     <span>{data.O3_AQI}</span>
                 </div>
                 <div className="pollutant">
-                    <span>CO</span>
+                    <span>CO: </span>
                     <span>{data.CO_AQI}</span>
                 </div>
                 <div className="pollutant">
-                    <span>SO2</span>
+                    <span>SO2: </span>
                     <span>{data.SO2_AQI}</span>
                 </div>
             </div>
