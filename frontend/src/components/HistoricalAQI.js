@@ -156,7 +156,7 @@ const HistoricalAQI = () => {
             const start = Math.floor(new Date(date).getTime() / 1000);
             const end = start + (24 * 60 * 60);
             
-            fetch(`https://Dakshbir.github.io/project_structure/api/historical?lat=${location.lat}&lon=${location.lon}&start=${start}&end=${end}`)
+            fetch(`https://project-structure-backend.vercel.app/api/historical?lat=${location.lat}&lon=${location.lon}&start=${start}&end=${end}`)
                 .then(res => res.json())
                 .then(setData)
                 .catch(console.error);

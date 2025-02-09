@@ -27,7 +27,7 @@ const CurrentAQI = () => {
 
     if (location) {
 
-      fetch(`https://Dakshbir.github.io/project_structure/api/current?lat=${location.lat}&lon=${location.lon}`)
+      fetch(`https://project-structure-backend.vercel.app/api/current?lat=${location.lat}&lon=${location.lon}`)
 
         .then(res => res.json())
 
